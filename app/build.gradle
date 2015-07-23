@@ -24,6 +24,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.google.android.gms:play-services:7.5.0'
     compile 'com.parse.bolts:bolts-android:1.2.0'
-    compile files ('libs/Parse-1.9.4.jar')
-    compile files ('libs/ParseFacebookUtilsV4-1.9.4.jar')
+    compile files ('app/libs/Parse-1.9.4.jar')
+    compile files ('app/libs/ParseFacebookUtilsV4-1.9.4.jar')
+    compile project(':ParseLoginUI')
 }
