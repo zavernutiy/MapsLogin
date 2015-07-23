@@ -26,5 +26,6 @@ dependencies {
     compile 'com.parse.bolts:bolts-android:1.2.0'
     compile files ('app/libs/Parse-1.9.4.jar')
     compile files ('app/libs/ParseFacebookUtilsV4-1.9.4.jar')
+    compile 'com.facebook.android:facebook-android-sdk:4.0.1'
     compile project(':ParseLoginUI')
 }

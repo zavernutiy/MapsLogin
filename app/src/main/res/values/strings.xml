@@ -3,4 +3,9 @@
     <string name="title_activity_maps">Map</string>
     <string name="parse_app_id">7tfLj9j30P3Ldq4GMDBYy4lzyJkBTBCui6MtMr88</string>
     <string name="parse_client_key">vw41Pbx5ODstT8db6UhlE7rlbgu1OEhE4wt1KqSW</string>
+    <string name="facebook_app_id">412760018925667</string>
+    <string-array name="my_facebook_permissions">
+        <item>public_profile</item>
+        <item>user_friends</item>
+    </string-array>
 </resources>
