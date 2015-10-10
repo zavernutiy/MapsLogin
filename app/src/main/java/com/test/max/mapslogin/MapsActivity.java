@@ -98,10 +98,7 @@ public class MapsActivity extends FragmentActivity
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 ParseUser.logOut();
-                                Intent loginIntent = new Intent(MapsActivity.this, DispatchLaunchActivity.class);
-                                loginIntent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-//                                loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-                                startActivity(loginIntent);
+                                startActivity(new Intent(MapsActivity.this, DispatchLaunchActivity.class));
                                 finish();
                             }
                         })

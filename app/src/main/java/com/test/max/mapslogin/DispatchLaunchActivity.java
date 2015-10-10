@@ -48,10 +48,7 @@ public class DispatchLaunchActivity extends Activity {
     }
 
     private void launchMap(){
-        Intent launchIntent = new Intent(this, MapsActivity.class);
-//        launchIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        launchIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(launchIntent);
+        startActivity(new Intent(this, MapsActivity.class));
         finish();
     }
 }
